@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/main.js"></script>
+    <title>
+        Cave of Creation
+    </title>
+</head>
+
+<body id="body" onload="init()">
+
+    <div id="star-background">
+        <div id="header">
+            <img id="logo" class="no_select" src="images/logon3.png">
+            <div id="audio_controls">
+                <audio id="song" src="media/song.mp3"></audio>
+
+                <img src="images/rewind.png" id="rewind_button" class="audio_button" onclick="rewind();">
+                <img src="images/play.png" id="play_button" class="audio_button" onclick="togglePlay();">
+                <img src="images/fastforward.png" id="fastforward_button" class="audio_button" onclick="fastforward();">
+
+            </div>
+        </div>
+
+        <div class="main">
+            <p style="text-align: center">
+                Welcome home<br>
+                This is Cave of Creation.
+            </p>
+            <p>
+                You can get our music here at <a href="https://caveofcreation.bandcamp.com/" class="ext_link">Bandcamp</a>.
+            </p>
+
+
+        </div>
+
+        <div class="planet_sprite" id="oceanplanet"><img src="images/Ozeanplanet.png"></div>
+        <div class="planet_sprite" id="orangecloudplanet"><img src="images/Orange_cloud_planet.png"></div>
+        <div class="planet_sprite" id="purpleringplanet"><img src="images/Cloud_Planet_with_Rings.png"></div>
+        <div class="planet_sprite" id="stoneplanet"><img src="images/orange_stone_planet.png"></div>
+    </div>
+</body>
+
+</html>
