@@ -98,8 +98,8 @@ body {
 }
 
 @keyframes spriteX {
-    0% { transform: translateX(-5px) }
-    50% { transform: translateX(5px) }
+    0% { transform: translateX(-5px) rotate(0deg) }
+    50% { transform: translateX(5px) rotate(0.1deg) }
 }
 @keyframes spriteY {
     0% { transform: translateY(-5px) }
@@ -147,8 +147,8 @@ body {
 
 #purpleringplanet{
     top: 50%;
-    width: 150px;
     left: 80%;
+    width: 150px;
 }
 
 #stoneplanet {
@@ -162,10 +162,69 @@ body {
     #logo {
         width: 80%;
     }
+
+    .main {
+        width: 70%;
+        margin-top: 100px;
+    }
+
+    #oceanplanet {
+        left: 20px;
+        top: 50%;
+        width: 97px;
+    }
+    
+    #orangecloudplanet{
+        right: 160px;
+        top: 330px;
+        width: 75px;
+    }
+    
+    #purpleringplanet{
+        top: 50%;
+        left: 80%;
+        width: 110px;
+    }
+    
+    #stoneplanet {
+        left: 20%;
+        top: 75%;
+        width: 110px;
+    }
 }
 
 @media screen and (max-width: 490px) {
     #logo  {
-        width: 90%;
+        width: 95%;
+    }
+
+    .main {
+        width: 80%;
+        margin-top: 60px;
+        background-color: rgba(245, 253, 255, 0.25);
+    }
+
+    #oceanplanet {
+        left: 20px;
+        top: 50%;
+        width: 65px;
+    }
+    
+    #orangecloudplanet{
+        right: 160px;
+        top: 330px;
+        width: 50px;
+    }
+    
+    #purpleringplanet{
+        top: 50%;
+        left: 80%;
+        width: 75px;
+    }
+    
+    #stoneplanet {
+        left: 20%;
+        top: 75%;
+        width: 75px;
     }
 }
